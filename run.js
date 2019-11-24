@@ -43,6 +43,8 @@ const checkLink = async (link) => {
 (async function() {
   let inspectedPages = [];
 
+  // TODO: Add remaining links from medium.com
+
   inspectedPages = inspectedPages.concat(await checkLink('https://medium.com/hackernoon/the-danger-of-relying-on-abstractions-dfa04a8d553d'));
   inspectedPages = inspectedPages.concat(await checkLink('https://medium.com/hackernoon/how-to-do-pair-programming-wrong-dab72fd15bef'));
   inspectedPages = inspectedPages.concat(await checkLink('https://medium.com/free-code-camp/the-power-of-pair-programming-lies-on-the-execution-a27938447994'));
