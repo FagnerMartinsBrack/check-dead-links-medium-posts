@@ -1,5 +1,141 @@
 {
-    "https://medium.com/@fagnerbrack/the-divide-between-the-programmers-and-the-customer-a546d94eb1c7": true,
-    "https://medium.com/@fagnerbrack/3-major-divides-in-programming-b07aa10a0d93": true,
-    "https://medium.com/@fagnerbrack/how-to-fix-the-tech-hiring-f56ae8192d8c": true
+    "https://medium.com/@fagnerbrack/the-divide-between-the-programmers-and-the-customer-a546d94eb1c7": [],
+    "https://medium.com/@fagnerbrack/3-major-divides-in-programming-b07aa10a0d93": [],
+    "https://medium.com/@fagnerbrack/how-to-fix-the-tech-hiring-f56ae8192d8c": [],
+    "https://itnext.io/youre-not-praised-for-the-bugs-you-didn-t-create-ef3df6894d5c": [],
+    "https://medium.com/@fagnerbrack/to-create-an-evolvable-api-think-about-the-protocol-9a0e976388f5": [],
+    "https://medium.com/@fagnerbrack/an-open-source-developer-doesnt-fit-in-your-company-61ab808ba6be": [],
+    "https://medium.com/@fagnerbrack/a-smart-programmer-understands-the-problems-worth-fixing-dcf15871f943": [],
+    "https://medium.com/@fagnerbrack/how-to-use-software-fundamentals-outside-of-programming-ee1fe047b8e0": [],
+    "https://levelup.gitconnected.com/to-create-an-evolvable-api-stop-thinking-about-urls-2ad8b4cc208e": [],
+    "https://medium.com/@fagnerbrack/the-most-audacious-programming-experiment-of-my-career-5e9bdc2da594": [],
+    "https://medium.com/@fagnerbrack/5-stories-to-be-a-better-developer-in-2019-ede98e3cf1fd": [],
+    "https://itnext.io/the-myth-of-100-code-coverage-c7d4c789700d": [],
+    "https://itnext.io/you-dont-know-tdd-691efe670094": [],
+    "https://itnext.io/how-tdd-can-prevent-over-engineering-1265a02f8863": [],
+    "https://medium.com/@fagnerbrack/the-code-you-write-should-only-suck-less-than-the-one-before-5a20e9a543f": [],
+    "https://itnext.io/how-to-build-a-money-data-type-in-javascript-7b622beabe00": [],
+    "https://medium.com/@fagnerbrack/the-test-should-verify-if-the-code-solves-the-problem-not-if-it-runs-afea37a3a6e": [],
+    "https://levelup.gitconnected.com/the-problem-you-solve-is-more-important-than-the-code-you-write-d0e5493132c6": [],
+    "https://medium.com/@fagnerbrack/it-doesnt-matter-how-fast-you-write-code-2e09b42bfff0": [],
+    "https://medium.com/@fagnerbrack/the-day-a-bug-was-fixed-only-because-the-ceo-called-in-f653a34079eb": [],
+    "https://medium.com/@fagnerbrack/the-day-i-was-very-close-to-be-murdered-10734fd1bf0d": [],
+    "https://medium.com/@fagnerbrack/the-power-of-commands-and-events-ec6d2b3f856d": [],
+    "https://levelup.gitconnected.com/how-to-write-code-that-will-last-forever-f8c4b1c0c867": [],
+    "https://levelup.gitconnected.com/how-to-use-technical-debt-in-your-favor-98bae475ba68": [],
+    "https://medium.com/@fagnerbrack/front-end-separation-and-the-irrational-love-for-curly-braces-b6472f48bde7": [],
+    "https://medium.com/hackernoon/git-and-bitcoin-have-one-thing-in-common-e11d87b36302": [],
+    "https://levelup.gitconnected.com/code-less-think-more-incrementally-98adee22df9b": [],
+    "https://medium.com/@fagnerbrack/how-to-refactor-a-public-interface-317ed18d38a3": [],
+    "https://codeburst.io/why-developers-become-frustrated-and-companies-cant-find-talent-c4114d8b72ac": [],
+    "https://medium.com/hackernoon/this-is-how-to-get-the-best-out-of-front-end-components-52ee29dfb4ae": [],
+    "https://medium.com/hackernoon/how-mob-programming-will-make-you-more-effective-590a1b7e0418": [],
+    "https://medium.com/@fagnerbrack/why-do-you-need-to-know-package-coupling-fundamentals-8e0fa8e33e20": [],
+    "https://medium.com/hackernoon/how-to-fix-the-software-industry-c2b627ec3d9d": [],
+    "https://medium.com/@fagnerbrack/you-cant-call-yourself-an-explorer-without-a-map-4e19ce51daa3": [],
+    "https://codeburst.io/why-do-you-need-to-know-interface-fundamentals-a129ac6ab0c3": [],
+    "https://medium.com/hackernoon/you-are-the-product-owner-of-your-life-7254185439ff": [],
+    "https://medium.com/hackernoon/why-corporate-culture-is-toxic-for-software-development-e4f0a2a203c6": [],
+    "https://medium.com/@fagnerbrack/lets-talk-about-the-wrong-things-eed7917d8c3a": [],
+    "https://medium.com/hackernoon/how-to-understand-the-balance-between-learning-and-progress-6783e7f711ac": [],
+    "https://medium.com/hackernoon/thoughts-on-software-development-heroes-5ec656c2e31a": [],
+    "https://medium.com/hackernoon/the-doctor-and-the-scalpel-78656f508c9a": [],
+    "https://medium.com/free-code-camp/why-test-driven-development-4fb92d56487c": [],
+    "https://medium.com/hackernoon/how-to-handle-github-pull-requests-like-a-boss-8693f4c57974": [],
+    "https://medium.com/hackernoon/how-to-learn-with-open-source-api-fundamentals-1f886383b8e1": [],
+    "https://medium.com/hackernoon/how-to-prevent-falling-in-the-trap-of-the-next-big-project-618fe7cc4ce9": [],
+    "https://medium.com/hackernoon/how-to-find-the-best-solution-for-a-bug-33818838502": [],
+    "https://medium.com/hackernoon/programming-subjective-discussion-9c177c31807f": [],
+    "https://medium.com/hackernoon/how-to-accept-over-engineering-for-what-it-really-is-6fca9a919263": [],
+    "https://medium.com/@fagnerbrack/the-legibility-argument-d1ec889b9c8a": [],
+    "https://medium.com/@fagnerbrack/how-to-create-a-hack-with-style-16e42b44d03": [],
+    "https://medium.com/@fagnerbrack/the-trick-to-write-better-software-lies-on-the-technique-944015f84ce4": [],
+    "https://medium.com/hackernoon/how-to-do-pair-programming-wrong-dab72fd15bef": [],
+    "https://medium.com/free-code-camp/the-power-of-pair-programming-lies-on-the-execution-a27938447994": [],
+    "https://medium.com/@fagnerbrack/how-to-find-the-best-context-for-pair-programming-711b8fdcd259": [],
+    "https://medium.com/@fagnerbrack/code-review-and-test-driven-development-4c19b69b5761": [],
+    "https://medium.com/hackernoon/the-angry-programmer-52a93bfcbc3c": [],
+    "https://medium.com/@fagnerbrack/repairing-the-leaky-abstraction-e726baab91b5": [],
+    "https://medium.com/@fagnerbrack/7-predictions-for-the-web-in-the-next-5-years-d57322717df3": [],
+    "https://medium.com/@fagnerbrack/mocking-can-lean-to-nondeterministic-tests-4ba8aef977a0": [],
+    "https://medium.com/@fagnerbrack/one-pull-request-one-concern-e84a27dfe9f1": [],
+    "https://medium.com/@fagnerbrack/library-internals-do-not-exist-1ff50a30e3b0": [],
+    "https://medium.com/@fagnerbrack/the-strictness-principle-9997e483cafb": [],
+    "https://medium.com/@fagnerbrack/one-commit-one-change-3d10b10cebbf": [],
+    "https://medium.com/@fagnerbrack/why-small-modules-matter-4e4d629321b8": [],
+    "https://medium.com/@fagnerbrack/wittgenstein-s-beetle-in-software-engineering-dcea89a5db92": [],
+    "https://medium.com/@fagnerbrack/why-aligning-statements-will-haunt-you-c7385a3b24d": [],
+    "https://medium.com/hackernoon/promises-are-not-proxies-fd00751eb980": [],
+    "https://medium.com/@fagnerbrack/html-is-an-api-8508362107a3": [],
+    "https://medium.com/@fagnerbrack/how-to-mock-the-network-with-nock-and-javascript-to-test-parts-of-a-system-you-need-a-good-design-9432c9c05a30": [],
+    "https://medium.com/@fagnerbrack/not-every-company-is-a-software-company-909e1dc847c7": [],
+    "https://medium.com/hackernoon/continuous-integration-a-merge-story-16d8c81b4077": [],
+    "https://medium.com/free-code-camp/ok-now-ill-learn-how-to-program-in-javascript-2c7847414830": [],
+    "https://medium.com/hackernoon/lets-implement-the-open-source-model-but-which-open-source-a89c82d1b494": [],
+    "https://medium.com/hackernoon/when-code-duplication-is-acceptable-51ce33ecd0f5": [],
+    "https://medium.com/hackernoon/affordance-in-software-design-12cc0d9d2721": [],
+    "https://medium.com/hackernoon/there-is-an-npm-module-for-that-d6b384678f6c": [],
+    "https://medium.com/hackernoon/a-test-is-as-good-as-its-ability-to-fail-when-it-needs-to-b4b8f212119a": [],
+    "https://medium.com/free-code-camp/code-that-dont-exist-is-the-code-you-don-t-need-to-debug-88985ed9604": [],
+    "https://medium.com/@fagnerbrack/how-to-reject-the-belief-on-the-silver-bullet-1d86b686acbb": [],
+    "https://medium.com/@fagnerbrack/code-smell-92ebb99a62d0": [],
+    "https://medium.com/@fagnerbrack/personal-experience-doesnt-matter-cb060b42f99a": [],
+    "https://medium.com/@fagnerbrack/promises-sync-code-disaster-e9d41a3c7279": [],
+    "https://medium.com/hackernoon/the-danger-of-relying-on-abstractions-dfa04a8d553d": [],
+    "https://medium.com/hackernoon/the-journey-for-the-right-question-c3f5b9e90035": [],
+    "https://medium.com/hackernoon/continuous-integration-a-war-story-e442ad463473": [],
+    "https://medium.com/hackernoon/how-to-destroy-the-myth-of-the-proper-solution-94ca958def1f": [],
+    "https://medium.com/free-code-camp/the-benefits-of-typing-instead-of-copying-54ed734ad849": [],
+    "https://medium.com/hackernoon/you-are-not-the-code-you-write-e54f02876ca3": [],
+    "https://itnext.io/this-is-the-one-thing-nobody-told-you-about-tdd-7f549254cd74": [
+        {
+            "url": "http://butunclebob.com/ArticleS.UncleBob.TheThreeRulesOfTdd",
+            "status": 400,
+            "state": "BROKEN",
+            "parent": "https://itnext.io/this-is-the-one-thing-nobody-told-you-about-tdd-7f549254cd74"
+        }
+    ],
+    "https://itnext.io/the-missing-practical-step-by-step-test-driven-development-a7140ca4b71": [
+        {
+            "url": "http://butunclebob.com/ArticleS.UncleBob.TheThreeRulesOfTdd",
+            "status": 0,
+            "state": "BROKEN",
+            "parent": "https://itnext.io/the-missing-practical-step-by-step-test-driven-development-a7140ca4b71"
+        }
+    ],
+    "https://medium.com/@fagnerbrack/how-to-solve-the-challenge-of-reusability-ac4edce069c9": [
+        {
+            "url": "https://umich.instructure.com/files/884126/download?download_frd=1",
+            "status": 403,
+            "state": "BROKEN",
+            "parent": "https://medium.com/@fagnerbrack/how-to-solve-the-challenge-of-reusability-ac4edce069c9"
+        }
+    ],
+    "https://medium.com/@fagnerbrack/html-and-state-a-challenging-way-to-look-at-web-performance-e3084fcff70d": [
+        {
+            "url": "https://www.quora.com/What-does-First-Meaningful-Paint-mean-in-Web-Performance",
+            "status": 403,
+            "state": "BROKEN",
+            "parent": "https://medium.com/@fagnerbrack/html-and-state-a-challenging-way-to-look-at-web-performance-e3084fcff70d"
+        }
+    ],
+    "https://medium.com/@fagnerbrack/why-do-you-need-to-know-package-cohesion-fundamentals-8a3510cba2c1": [
+        {
+            "url": "http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod",
+            "status": 400,
+            "state": "BROKEN",
+            "parent": "https://medium.com/@fagnerbrack/why-do-you-need-to-know-package-cohesion-fundamentals-8a3510cba2c1"
+        }
+    ],
+    "https://medium.com/hackernoon/how-to-deal-with-test-and-production-code-c64acd9a062": [],
+    "https://medium.com/hackernoon/the-noise-argument-2d547fa69414": [],
+    "https://medium.com/@fagnerbrack/pair-programming-8cfbf2dc4d00": [],
+    "https://medium.com/@fagnerbrack/code-comment-is-a-smell-4e8d78b0415b": [
+        {
+            "url": "https://mislav.net/2014/02/hidden-documentation/",
+            "status": 0,
+            "state": "BROKEN",
+            "parent": "https://medium.com/@fagnerbrack/code-comment-is-a-smell-4e8d78b0415b"
+        }
+    ]
 }

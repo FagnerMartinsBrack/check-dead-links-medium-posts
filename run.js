@@ -25,7 +25,8 @@ const checkLink = async (link) => {
     linksToSkip: [
       'https://help.medium.com',
       'https://cdn-client.medium.com',
-      'https://hackernoon.com/tagged/wrong'
+      'https://miro.medium.com',
+      'https://medium.com/tag'
     ]
   });
 
@@ -48,22 +49,14 @@ const checkLink = async (link) => {
 };
 
 (async function() {
-  let inspectedPages = [];
 
   for (const postLink of allPosts) {
     if (!alreadyChecked[postLink]) {
-      inspectedPages = inspectedPages.concat(await checkLink(postLink));
-      alreadyChecked[postLink] = true;
+      const inspectedPage = await checkLink(postLink);
+      alreadyChecked[postLink] = inspectedPage.brokenLinks;
       fs.writeFileSync('./already-checked.json', JSON.stringify(alreadyChecked, null, 4), { encoding: 'UTF-8' });
       await waitForMilliseconds(1000);
     }
-  }
-
-  for (const inspectedPage of inspectedPages) {
-    console.log('-----------------------')
-    console.log('Inspected page: ', inspectedPage.url);
-    console.log('Broken links: ', inspectedPage.brokenLinks);
-    console.log('-----------------------')
   }
 
   console.log('Dead link check: Done!');
