@@ -1,5 +1,7 @@
+const fs = require('fs');
 const linkinator = require('linkinator');
 const allPosts = require('./all-posts.json');
+const alreadyChecked = require('./already-checked.json');
 
 const waitForMilliseconds = (milliseconds) => {
   return new Promise(resolve => {
@@ -31,7 +33,12 @@ const checkLink = async (link) => {
 
   const brokenLinks = result.links
     .filter(link => link.state === 'BROKEN')
-    .filter(link => link.status !== 409);
+
+    // For some reason a lot of links have this status, mot sure why
+    .filter(link => link.status !== 409)
+
+    // Linkedin always returns status 999 for machine requests
+    .filter(link => link.status !== 999);
 
   if (brokenLinks.length) {
     process.stdout.write(`\x1b[31mDetected ${brokenLinks.length} broken links.\x1b[0m\n`);
@@ -44,14 +51,20 @@ const checkLink = async (link) => {
   let inspectedPages = [];
 
   for (const postLink of allPosts) {
-    inspectedPages = inspectedPages.concat(await checkLink(postLink));
-    await waitForMilliseconds(1000);
+    if (!alreadyChecked[postLink]) {
+      inspectedPages = inspectedPages.concat(await checkLink(postLink));
+      alreadyChecked[postLink] = true;
+      fs.writeFileSync('./already-checked.json', JSON.stringify(alreadyChecked, null, 4), { encoding: 'UTF-8' });
+      await waitForMilliseconds(1000);
+    }
   }
 
   for (const inspectedPage of inspectedPages) {
     console.log('-----------------------')
-    console.log('Broken page: ', inspectedPage.url);
+    console.log('Inspected page: ', inspectedPage.url);
     console.log('Broken links: ', inspectedPage.brokenLinks);
     console.log('-----------------------')
   }
+
+  console.log('Dead link check: Done!');
 }());
