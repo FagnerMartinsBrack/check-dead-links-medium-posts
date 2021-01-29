@@ -38,6 +38,14 @@ const checkLink = async (link) => {
     // For some reason a lot of links have this status, mot sure why
     .filter(link => link.status !== 409)
 
+    // Twitter responds with 400 status for fetch calls.
+    // I don't care about Bad Request as I'm analysing links carried with GET calls, not form submissions
+    .filter(link => link.status !== 400)
+
+    // Some IETF link (https://tools.ietf.org/html/rfc1459) was registered as status "0" but was working fine
+    // Weird stuff...
+    .filter(link => link.status !== 0)
+
     // Linkedin always returns status 999 for machine requests
     .filter(link => link.status !== 999);
 
